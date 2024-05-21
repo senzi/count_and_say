@@ -91,14 +91,17 @@ def print_iterations_and_check_cycle(n):
 
 
 # 示例调用
-print("调用 count_and_say(23124124235):")
-print(count_and_say(23124124235))
+print("调用 count_and_say(1000000000000):")
+print(count_and_say(1000000000000))
 
 print("\n调用 find_cycle_or_fixed_point(1):")
 print(find_cycle_or_fixed_point(1))
 
-print("\n调用 print_iterations_and_check_cycle(123):")
-print_iterations_and_check_cycle(123)
+print("\n调用 print_iterations_and_check_cycle(1):")
+print_iterations_and_check_cycle(1)
+
+print("\n调用 print_iterations_and_check_cycle(1000000000000):")
+print_iterations_and_check_cycle(1000000000000)
 
 # 下面调用需要时间较长，先注释，有需要可以执行。
 # print("\n调用 find_all_cycles_and_fixed_points(7, 'fixed_points.csv', only_fixed_points=True):")
